@@ -13,7 +13,10 @@
   "repository": "felixgirault/pure-render-decorator",
   "main": "index.js",
   "peerDependencies": {
-    "react": "^15.0.0 || ^0.14.0"
+    "react": "^16.0.0 || ^15.0.0 || ^0.14.0"
+  },
+  "publishConfig": {
+    "registry": "http://maven.cqoak.ml/repository/oak-npm/"
   },
   "dependencies": {
     "fbjs": "^0.8.0"
